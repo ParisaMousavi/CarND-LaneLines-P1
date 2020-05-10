@@ -23,14 +23,9 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+One potential shortcoming would be if the road doesn't have lane lines.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement would be to draw the curves not with the straight lines but with curve lines
