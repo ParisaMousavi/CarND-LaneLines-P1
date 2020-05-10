@@ -1,15 +1,11 @@
 
 ## Lane Finding Pipeline
 
-This is an overview of my pipeline.
+My solution has two main parts:
+- First 5 steps for preparing image for lane line detection process.
+- Second 7 steps for processing the prepared image to find lines and draw the detected lane lines on the main image.
 
 ![My solution pipeline](./media/CarND-LaneLines-P1.svg)
-
-
-My solution has two main parts:
-- First 5 steps for preparing image for line process.
-- Second 7 steps for processing the image to find lines and draw the detected lane lines on the main image.
-
 
 
 ## Reflection
