@@ -7,18 +7,13 @@ My solution has two main parts:
 
 ![My solution pipeline](./media/CarND-LaneLines-P1.svg)
 
-
 ## Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+in the first 5 steps of my processor prepare the image which will be used for lane line detection. This image contains only the 
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
+After the 
 
 
 ### 2. Identify potential shortcomings with your current pipeline
