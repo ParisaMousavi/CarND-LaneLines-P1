@@ -1,9 +1,9 @@
 
 ## Lane Finding Pipeline
 
-My solution has two main parts:
-- First 5 steps for preparing image for lane line detection process.
-- Second 7 steps for processing the prepared image to find lines and draw the detected lane lines on the main image.
+My solution has two main parts. The diagram below demons
+- First 5 steps as demonstrated in the diagram below, are for preparing image for lane line detection processor.
+- Second 7 steps are for processing the prepared image to find lines and draw the detected lane lines on the main image.
 
 ![My solution pipeline](./media/CarND-LaneLines-P1.svg)
 
@@ -11,7 +11,7 @@ My solution has two main parts:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-in the first 5 steps of my processor prepare the image which will be used for lane line detection. This image contains only the 
+In the first 5 steps of my processor prepare the image which will be used for lane line detection. This image contains only the 
 
 After the 
 
