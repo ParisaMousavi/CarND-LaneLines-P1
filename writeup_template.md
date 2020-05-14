@@ -30,7 +30,7 @@ The output of a helper function is the input for the next helper function. The f
 
 #### Detect white and yellow lane lines with RGB
 
-==[This function is added to my second pipeline]==
+> This function is added to my second pipeline
 
 The **detect_white_yellow_lanes** function detects the white and yellow part of the input image. My first pipeline did not have this helper function. Next figure was the output of my lane line detection for the challenge video.
 
@@ -84,7 +84,7 @@ The **hough\_lines** function detects lines in the input image based on the thre
 
 #### Extract line properties
 
-==[This function is added to my second pipeline]==
+> This function is added to my second pipeline
 
 The **line_properties_extractor** function receives a line as an input parameter. In this step I decided to do the following clean ups:
 
@@ -95,7 +95,7 @@ Because the vertical and horizontal lines are not the good line candidates for m
 
 #### Inspect lines
 
-==[This function is added to my second pipeline]==
+> This function is added to my second pipeline
 
 As I explained before the output of my first pipeline was not what I expected, see the figure below. In addition to select the white and yellow part of the image at the beginning of the pipeline to eliminate the unnecessary part of the image, I decided to inspect the lines (hough\_line&#39;s output) properties and calculate the best line candidates for left and right lanes. The output of this function is only two lines. One for left lane line and the second is the right lane line.
 
@@ -109,7 +109,7 @@ And in the last part of the function the average of slope and intercept is calcu
 
 #### Calculate general lane lines
 
-==[This function is added to my second pipeline]==
+> This function is added to my second pipeline
 
 The **calculate_general_lane_lines** function is for extending the best candidates lane lines to have a full-length line. Because the previous functions are working with slope and intercept, in this step I can calculate the two endpoints of left and right lane lines easily.
 
@@ -135,7 +135,7 @@ The main function in this class is the **processor** function. This is responsib
 
 After testing my second pipeline with an optimized and improved logic, I noticed that the lane line is not drawn in some frame. Therefore, I improved the pipeline for the third time.
 
-==[This logic added to my third pipeline]==
+> This logic added to my third pipeline
 
 To solve the above problem I defined two lists for the right and left lanes and gathered the all the lane lines which are drawn on the frames to calculate the mean of them and then the newly calculated mean lane line is drawn on the image.
 
